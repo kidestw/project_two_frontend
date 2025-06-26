@@ -1,4 +1,3 @@
-# C:\Users\User\Desktop\project_two\front-end\.github\workflows\nextjs-ci.yml
 name: Next.js CI/CD to Docker Hub
 
 on:
