@@ -12,7 +12,7 @@ services:
     ports:
       - "3000:3000" # Map host port 3000 to container port 3000
     environment:
-      NEXT_PUBLIC_BACKEND_URL: http://localhost:8000 # Placeholder for local testing. Will change later.
+      NEXT_PUBLIC_BACKEND_URL: http://localhost # Placeholder for local testing. Will change later.
     # volumes: # Keep this commented out unless you specifically need live reloading for local dev
     #   - .:/app
     #   - /app/node_modules
